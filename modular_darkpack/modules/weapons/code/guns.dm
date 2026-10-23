@@ -636,6 +636,10 @@
 	fire_sound = 'modular_darkpack/modules/deprecated/sounds/sniper.ogg'
 	masquerade_violating = FALSE
 	serial_type = "BR"
+// CRIMSON GRID EDIT START - FIXING RECOIL
+	burst_fire_selection = FALSE
+// CRIMSON GRID EDIT END - FIXING RECOIL
+
 
 /obj/item/gun/ballistic/automatic/darkpack/fal/automatic
 	name = "military battle rifle"
@@ -772,6 +776,9 @@
 	actions_types = list()
 	masquerade_violating = TRUE
 	serial_type = "DS"
+// CRIMSON GRID EDIT START - FIXING RECOIL
+	burst_fire_selection = FALSE
+// CRIMSON GRID EDIT END - FIXING RECOIL
 
 /obj/item/ammo_box/magazine/vamp762x51PSG1
 	name = "Auto-sniper magazine (7.62 NATO)"
