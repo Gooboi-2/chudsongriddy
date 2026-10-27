@@ -7,7 +7,9 @@
 	earliest_start = 50 MINUTES
 	category = EVENT_CATEGORY_BUREAUCRATIC
 	description = "Wall Street has crashed catastrophically causing all of Bianchi Bank's accounts to tank as people lose their savings."
-	darkpack_allowed = TRUE
+//CRIMSON GRID EDIT - REMOVE FINANCIAL CRASH EVENT
+	darkpack_allowed = FALSE
+//CRIMSON GRID EDIT END
 
 /datum/round_event/financial_crisis
 	start_when = 1
